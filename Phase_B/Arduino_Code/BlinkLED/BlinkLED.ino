@@ -1,8 +1,6 @@
 #include <Arduino.h>
 #include <avr/power.h>
 
-#include "ATMEGA32u4_Pin_Mapping.h"
-
 #define PF0   A5
 #define PF1   A4
 #define PF4   A3
