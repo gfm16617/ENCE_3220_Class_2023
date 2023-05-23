@@ -8,6 +8,6 @@
 |---------|:-------------------:|:---------------------:|:--------------------:|:------------------:|
 | 4pm-6pm | Harsha              | Ryan Considine        |                      | Leo Gomez          |
 |         | Alex Kondracki      | David Ki              |                      |                    |
-|         | Jon McHorse         |                       |                      |                    |
+|         | Jon McHorse         | Brian Lee             |                      |                    |
 | 5pm-7pm |                     |                       | Madeline             |                    |
 |         |                     |                       | Cole                 |                    |
