@@ -4,6 +4,9 @@
 
 ## PCB Soldering Schedule
 
-TODO...
+|         | Tuesday (available) | Wednesday (available) | Thursday (available) | Friday (available) |
+|---------|:-------------------:|:---------------------:|:--------------------:|:------------------:|
+| 4pm-6pm |                     |                       |                      |                    |
+| 5pm-7pm |                     |                       |                      |                    |
 
 
