@@ -7,5 +7,5 @@
 |         | Tuesday (available) | Wednesday (available) | Thursday (available) | Friday (available) |
 |---------|:-------------------:|:---------------------:|:--------------------:|:------------------:|
 | 4pm-6pm | Harsha              | Ryan Considine        |                      | Leo Gomez          |
-|         |                     | David Ki              |                      |                    |
+|         | Alex Kondracki      | David Ki              |                      |                    |
 | 5pm-7pm |                     |                       |                      |                    |
