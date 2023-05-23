@@ -12,3 +12,4 @@
 | 5pm-7pm |                     |                       | Madeline             |                    |
 |         |                     |                       | Cole                 |                    |
 |         |                     |                       | Reagan               |                    |
+|         |                     |                       | Brendan              |                    |
