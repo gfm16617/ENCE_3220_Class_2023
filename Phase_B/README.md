@@ -11,3 +11,4 @@
 |         | Jon McHorse         | Brian Lee             |                      |                    |
 | 5pm-7pm |                     |                       | Madeline             |                    |
 |         |                     |                       | Cole                 |                    |
+|         |                     |                       | Reagan               |                    |
