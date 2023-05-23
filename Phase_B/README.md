@@ -6,7 +6,7 @@
 
 |         | Tuesday (available) | Wednesday (available) | Thursday (available) | Friday (available) |
 |---------|:-------------------:|:---------------------:|:--------------------:|:------------------:|
-| 4pm-6pm |                     | Ryan Considine        |                      |                    |
+| 4pm-6pm |                     | Ryan Considine        |                      | Leo Gomez          |
+|         |                     | David Ki              |                      |                    |
 | 5pm-7pm |                     |                       |                      |                    |
-
 
