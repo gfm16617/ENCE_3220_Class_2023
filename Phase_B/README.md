@@ -10,11 +10,11 @@
 |         | Alex Kondracki      | David Ki              |                      | Kevin Fuentes      |
 |         | Jon McHorse         | Brian Lee             |                      | Bryce Swearingen   |
 |         | Evan Hill           | Ethan Burnett         |                      | Eric Jacobs        |
-|         |                     | Raul Medina           |                      |                    |
-|         |                     |                       |                      |                    |
+|         | Toby                | Raul Medina           |                      | Zach               |
+|         | Chris               | Daniel                |                      | John               |
 | 5pm-7pm |                     |                       | Madeline Bohn        |                    |
 |         |                     |                       | Cole Schweizer       |                    |
 |         |                     |                       | Reagan Hardy         |                    |
 |         |                     |                       | Brendan Pipta        |                    |
 |         |                     |                       | Noe Sheridan         |                    |
-|         |                     |                       |                      |                    |
+|         |                     |                       | Josh                 |                    |
