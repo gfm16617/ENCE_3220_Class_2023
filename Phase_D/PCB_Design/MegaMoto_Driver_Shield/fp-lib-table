@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Arduino_MountingHole")(type "KiCad")(uri "${KICAD7_TEMPLATE_DIR}/Arduino_Mega/Arduino_MountingHole.pretty")(options "")(descr ""))
+  (lib (name "digikey-footprints")(type "KiCad")(uri "${KIPRJMOD}/components/digikey-kicad-library-master/digikey-footprints.pretty")(options "")(descr ""))
+  (lib (name "Diode_SMBJ30A")(type "KiCad")(uri "${KIPRJMOD}/components/Diode_SMBJ30A/Diode_SMBJ30A.pretty")(options "")(descr ""))
+)

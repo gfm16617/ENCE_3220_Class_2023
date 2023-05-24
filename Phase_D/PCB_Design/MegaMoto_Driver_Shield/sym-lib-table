@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SMBJ30A")(type "KiCad")(uri "${KIPRJMOD}/components/Diode_SMBJ30A/SMBJ30A.kicad_sym")(options "")(descr ""))
+)
