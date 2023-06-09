@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kitchen Timer</title>
+</head>
+<body style='background-color: #EEEEEE;'>
+
+<span style='color: #003366;'>
+
+<h1>Control LEDs</h1>
+<p>
+<b>RED:</b>
+<button type='button' id='BTN_RLED_ON'>On</button>
+<button type='button' id='BTN_RLED_OFF'>Off</button>
+</p>
+
+<p>
+<b>GREEN:</b>
+<button type='button' id='BTN_GLED_ON'>On</button>
+<button type='button' id='BTN_GLED_OFF'>Off</button>
+</p>
+
+</span>
+
+</body>
+<script>
+  var Socket;
+  document.getElementById('BTN_RLED_ON').addEventListener('click', button_rled_on);
+  document.getElementById('BTN_RLED_OFF').addEventListener('click', button_rled_off);
+  document.getElementById('BTN_GLED_ON').addEventListener('click', button_gled_on);
+  document.getElementById('BTN_GLED_OFF').addEventListener('click', button_gled_off);
+  
+  function init() {
+    Socket = new WebSocket('ws://' + window.location.hostname + ':81/');
+    Socket.onmessage = function(event) {
+      processCommand(event);
+    };
+  }
+  
+  function button_rled_on() {
+    var msg = {
+	color: 'RED',
+	state:  1
+	};
+	Socket.send(JSON.stringify(msg));
+  }
+  
+  function button_rled_off() {
+    var msg = {
+	color: 'RED',
+	state:  0
+	};
+	Socket.send(JSON.stringify(msg));
+  }
+  
+  function button_gled_on() {
+    var msg = {
+	color: 'GREEN',
+	state:  1
+	};
+	Socket.send(JSON.stringify(msg));
+  }
+  
+  function button_gled_off() {
+    var msg = {
+	color: 'GREEN',
+	state:  0
+	};
+	Socket.send(JSON.stringify(msg));
+  }
+  
+  function processCommand(event) {
+	
+  }
+  window.onload = function(event) {
+    init();
+  }
+</script>
+</html>

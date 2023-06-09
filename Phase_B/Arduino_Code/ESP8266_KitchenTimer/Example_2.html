@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UTF-8'>
+    <title>Kitchen Timer IoT</title>
+    <style>
+      /* Style for the number display */
+      #number-display {
+        font-size: 5rem;
+        text-align: center;
+        padding: 1rem;
+        background-color: #eee;
+        border-radius: 0.5rem;
+        margin-bottom: 2rem;
+      }
+
+      /* Styles for the buttons */
+      .button {
+        display: inline-block;
+        background-color: #4CAF50;
+        color: white;
+        padding: 1rem 2rem;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.5rem;
+        margin: 1rem;
+        cursor: pointer;
+        border-radius: 0.5rem;
+        border: none;
+      }
+
+      .button:hover {
+        background-color: #3e8e41;
+      }
+    </style>
+</head>
+
+<body>
+
+<p>
+<div id='number-display'>0</div>
+<button class='button' id='BTN_INC'>Increment</button>
+<button class='button' id='BTN_START'>Start</button>
+<button class='button' id='BTN_STOP'>Stop</button>
+</p>
+
+</body>
+
+<script>
+  var Socket;
+  document.getElementById('BTN_INC').addEventListener('click', button_inc);
+  document.getElementById('BTN_START').addEventListener('click', button_start);
+  document.getElementById('BTN_STOP').addEventListener('click', button_stop);
+  
+  function init() {
+    Socket = new WebSocket('ws://' + window.location.hostname + ':81/');
+    Socket.onmessage = function(event) {
+      processCommand(event);
+    };
+  }
+  
+  function button_inc() {
+    var msg = {
+	type: 'button_inc',
+	state:  'pressed'
+	};
+	Socket.send(JSON.stringify(msg));
+  }
+  
+  function button_start() {
+    var msg = {
+	type: 'button_start',
+	state:  'pressed'
+	};
+	Socket.send(JSON.stringify(msg));
+  }
+  
+  function button_stop() {
+    var msg = {
+	type: 'button_stop',
+	state:  'pressed'
+	};
+	Socket.send(JSON.stringify(msg));
+  }
+  
+  function processCommand(event) {
+	
+  }
+  window.onload = function(event) {
+    init();
+  }
+</script>
+</html>
