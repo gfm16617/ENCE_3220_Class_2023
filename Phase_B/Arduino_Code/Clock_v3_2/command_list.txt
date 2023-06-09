@@ -1,0 +1,14 @@
+
+$SET,TMRS,mm:ss\n
+$SET,ALRM,0\n
+$SET,ALRM,1\n
+$SET,RLED,0\n
+$SET,RLED,1\n
+$SET,GLED,0\n
+$SET,GLED,1\n
+$STR\n
+$STP\n
+$INC\n
+
+//-- ToDo --
+$GET  -> Request the status of all variables (LEDS, Alarm and gCount)
